@@ -1,0 +1,123 @@
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet">
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+:root {
+  --red-bg: #ff0d00;
+  --drk-black-bg: #000000;
+  --red-clrrgba(250, 0, 0, 0.594)3);
+  --blck-clr: #17191d;
+  --silver-txt: #f2f2f7;
+  --white-txt: #fdfdfd;
+  --max-width: 1140px;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  background: linear-gradient(
+    135deg,
+    var(--red-bg) 20%,
+    var(--drk-black-bg) 140%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.main-container {
+  text-align: center;
+  color: var(--silver-txt);
+  background: linear-gradient(
+    135deg,
+    var(--drk-black-bg) 20%,
+    var(--blck-clr) 80%
+  );
+  max-width: 100vw;
+  max-height: 100%;
+  margin: 3rem auto;
+  padding: 3rem;
+  border-radius: 4rem;
+}
+
+h2 {
+  margin-top: 0rem;
+  color: var(--silver-txt);
+}
+
+input {
+  background-color: var(--blck-clr);
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  background: linear-gradient(
+    135deg,
+    var(--drk-black-bg) 80%,
+    var(--blck-clr) 20%
+  );
+  box-shadow: 1px 1px 5px 4px var(--red-clr);
+  color: var(--silver-txt);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.btn {
+  border: none;
+  width: auto;
+  height: 2.149375rem;
+  border-radius: 0.5rem;
+  color: var(--silver-txt);
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  background: linear-gradient(
+    135deg,
+    var(--drk-black-bg) 80%,
+    var(--blck-clr) 20%
+  );
+  box-shadow: 1px 1px 5px 4px var(--blck-clr);
+  cursor: pointer;
+}
+
+.item-list {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: start;
+  margin-top: 0.3rem;
+}
+
+.btn-icon {
+  height: 1.2rem;
+  width: auto;
+  font-size: 16px;
+  text-align: center;
+  border: none;
+  color: var(--silver-txt);
+  background: none;
+  cursor: pointer;
+}
